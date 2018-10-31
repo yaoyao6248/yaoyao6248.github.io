@@ -3,19 +3,17 @@
     padding: 0;
 }
 img{
-    width: 24%;
+    width: 48%;
     height: auto;
 }
 .sm{
-    width: 10%;
+    width: 50%;
 }
 .f{
     z-index: 100;
     width: 50%;
     height: 50%;
     position: fixed;
-    bottom: 25%;
-    left: 25%;
 }
 .go{
     position: relative;
@@ -27,9 +25,9 @@ img{
 }
 @-webkit-keyframes myfirst /* Safari 和 Chrome */
 {
-    0%   {left:0px; top:0px;}
-    25%  {left:200px; top:0px;}
-    50%  {left:200px; top:120px;}
-    75%  {left:0px; top:120px;}
-    100% {left:0px; top:0px;}
+    0%   {left:0px; bottom:0px;}
+    25%  {left:200px; bottom:0px;}
+    50%  {left:200px; bottom:200px;}
+    75%  {left:0px; bottom:200px;}
+    100% {left:0px; bottom:0px;}
 }
