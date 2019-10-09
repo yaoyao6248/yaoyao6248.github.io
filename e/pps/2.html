@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+ initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>pps</title>
+    <!--<link rel="stylesheet" href="style.css">-->
+    <title>pps</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        width: 964px;
+        margin: auto;
+    }
+    img{
+        width: 49%;
+        height: auto;
+        margin-top: 50px;
+    }
+    .move
+    {
+        position:relative;
+        animation-name:myfirst;
+        animation-duration:5s;
+        animation-timing-function:linear;
+        animation-delay:2s;
+        animation-iteration-count:infinite;
+        animation-direction:alternate;
+        animation-play-state:running;
+        /* Safari and Chrome: */
+        -webkit-animation-name:myfirst;
+        -webkit-animation-duration:5s;
+        -webkit-animation-timing-function:linear;
+        -webkit-animation-delay:2s;
+        -webkit-animation-iteration-count:infinite;
+        -webkit-animation-direction:alternate;
+        -webkit-animation-play-state:running;
+    }
+
+    @keyframes myfirst
+    {
+        0%   {background:red; left:0px; top:0px;}
+        25%  {background:yellow; left:200px; top:0px;}
+        50%  {background:blue; left:200px; top:400px;}
+        75%  {background:green; left:0px; top:400px;}
+        100% {background:red; left:0px; top:0px;}
+    }
+
+    @-webkit-keyframes myfirst /* Safari and Chrome */
+    {
+        0%   {background:red; left:0px; top:0px;}
+        25%  {background:yellow; left:200px; top:0px;}
+        50%  {background:blue; left:200px; top:400px;}
+        75%  {background:green; left:0px; top:400px;}
+        100% {background:red; left:0px; top:0px;}
+    }
+    .move1
+    {
+        position:relative;
+        animation-name:myfirst;
+        animation-duration:20s;
+        animation-timing-function:linear;
+        animation-delay:5s;
+        animation-iteration-count:infinite;
+        animation-direction:alternate;
+        animation-play-state:running;
+        /* Safari and Chrome: */
+        -webkit-animation-name:myfirst;
+        -webkit-animation-duration:20s;
+        -webkit-animation-timing-function:linear;
+        -webkit-animation-delay:5s;
+        -webkit-animation-iteration-count:infinite;
+        -webkit-animation-direction:alternate;
+        -webkit-animation-play-state:running;
+    }
+
+    @keyframes myfirst
+    {
+        0%   {background:red; left:0px; top:0px;}
+        25%  {background:yellow; left:200px; top:0px;}
+        50%  {background:blue; left:200px; top:400px;}
+        75%  {background:green; left:0px; top:400px;}
+        100% {background:red; left:0px; top:0px;}
+    }
+
+    @-webkit-keyframes myfirst /* Safari and Chrome */
+    {
+        0%   {background:red; left:0px; top:0px;}
+        25%  {background:yellow; left:200px; top:0px;}
+        50%  {background:blue; left:200px; top:400px;}
+        75%  {background:green; left:0px; top:400px;}
+        100% {background:red; left:0px; top:0px;}
+    }
+</style>
+<body>
+    <article class="container">
+        <img src="./pic/1.jpg" alt="" class="move1">
+        <img src="./pic/2.jpg" alt="" class="move">
+    </article>
+</body>
+</html>
